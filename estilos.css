@@ -1,0 +1,56 @@
+*¨{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+
+}
+
+.formulario-de-registro{
+    position: relative;
+    left: 150px;
+    width: 372px;
+    background: #ffffff;
+    padding: 50px;
+    margin: 283px;
+    margin-top: 180px;
+    height: 484px;
+    border-radius: 20px;
+    border: none;
+}
+
+h1{
+    font-family:Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+     color: rgba(0,0,0,.8);
+    font-weight: 600;
+    letter-spacing: .0125rem;
+    overflow-wrap: break-word;
+
+    
+    
+
+}
+input{
+    width:100%;
+    border:2px solid white;
+    text-align: left;
+    font-size: 20px;
+    border-radius:4px;
+    margin:50px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    border-bottom: 1px solid #009ee3!important;
+}
+
+.boton{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+ padding: 23px 10px 17px 8px;
+    background: #00b1ea;
+    border-radius: 22px;
+
+ }

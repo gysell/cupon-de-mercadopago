@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="icon" type="logo/ico" href="logo.ico">
+    <style>
+        body{
+            background-image: url(fondo.png);
+            background-repeat: no-repeat;
+            background-size: 1350px 600px;
+            
+        }
+    </style>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <section class="formulario-de-registro">
+        <form method="POST" action="recibe.php">
+            <!-- Modifique el tamaño del Hº ya que el framework altera el que viene por defecto, ya al integrar el framework
+                se modifican los elementos, instantáneamente modifica los campos de texto.
+ -->
+            <h1>¡Hola! Ingresá tu E-mail y Contraseña</h1>
+            <input class="controls" type="email" name="E-mail" id="E-mail" placeholder="Ingrese su E-mail">
+            <div>
+    
+            </div>
+            <input class="controls" type="text" name="contrasena" id="Contraseña" placeholder="Ingrese su Contraseña"> 
+            <div>
+    
+            </div>
+            <!-- Aquí implemento clases proporcionadas por el framework de Materialize, en este caso para generar un botón 
+            azul con algunos efectos, en las mismas propiedades puedo indicarles que tipo de color y la intensidad
+  -->
+            <button  class="waves-effect blue darken-2 btn-large boton "  type="submit">continuar</button >
+       
+        
+        </form>
+       
+
+    </section>
+</body>
+<!-- Aquí incluyo el framework Materialize con el método CDN, este método permite utilizarlo sin descargarlo, pero solo funciona con internet, esto hace que una página a veces no sea tan pesada, esto involucra css y javascript y puede ser utilizado de una manera muy sencilla desde la página oficinal de materialize el cual indica todas sus funciones -->
+
+<!-- Compiled and minified CSS -->
+  
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+-->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
